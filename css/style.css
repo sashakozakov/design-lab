@@ -349,3 +349,37 @@ margin-top: 40px;
 	}
 
 }
+
+@media screen and (max-width: 320px){
+h4 {
+    font-size: 18px;
+}
+.ba-header__inner {
+    width: 98%;
+}
+.ba-header__title {
+	font-size: 20px;
+    padding-top: 10px;
+}
+.ba-header__text {
+	font-size: 14px;
+}
+
+.ba-box:before,
+.ba-box:after {
+width: 15%;
+}
+.ba-box__title {
+    left: 15%;
+    right: 15%;
+    font-size: 16px;
+    }
+.ba-box-whatwedo__item img {
+width: 50px;
+}
+.ba-btn {
+    padding: 5px 30px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+}
