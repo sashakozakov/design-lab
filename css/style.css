@@ -221,7 +221,7 @@ background: #313131;
 .ba-grid {
 	margin-left: -10px;
 }
-.ba-section-grid img {
+.ba-section-grid__image {
 height: 237px;
 width: 100%;
 display: block;
@@ -229,7 +229,7 @@ display: block;
      -o-background-size: cover;
         background-size: cover;
 }
-.ba-section-grid .image {
+.ba-section-grid .ba-image {
 position: relative;
 }
 .ba-section-grid__title {
