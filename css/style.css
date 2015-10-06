@@ -256,3 +256,96 @@ margin-left: 15px;
 .ba-footer-box {
 margin-bottom: 40px;
 }
+
+
+
+/*Responsive styles*/
+@media screen and (max-width: 960px){
+.ba-box {
+padding: 45px 80px;
+}
+}
+
+@media screen and (max-width: 780px){
+	h2 {
+font-size: 26px;
+	}
+.ba-box {
+padding: 15px 50px;
+margin-top: 80px;
+margin-bottom: 65px;
+}
+.ba-section-grid__image {
+    height: 180px;
+    }
+.ba-section-grid__title {
+left: 15px;
+}
+.ba-section-grid__title {
+	font-size: 20px;
+}
+.ba-button {
+    margin-top: 20px;
+}
+.ba-btn {
+padding: 20px 100px;
+}
+.ba-footer-box {
+    margin-bottom: 20px;
+}
+
+}
+
+@media screen and (max-width: 650px){
+.ba-section-grid__title {
+		font-size: 34px;
+	}
+.ba-section-grid .ba-width-1-4 {
+    width: 100%;
+}
+.ba-section-grid .ba-width-2-4 {
+    width: 100% !important;
+}
+.ba-grid+.ba-grid {
+margin-top: 0;
+}
+.ba-section-grid__image {
+    height: auto;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+
+.ba-header__title {
+	font-size: 34px;
+    padding-top: 50px;
+}
+.ba-box {
+    padding: 5px 20px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+.ba-box__title {
+font-size: 18px;
+}
+.ba-box-whatwedo__item {
+    margin-top: 40px;
+}
+.ba-box-whatwedo__item+.ba-box-whatwedo__item {
+margin-top: 40px;
+}
+.ba-button-down {
+    bottom: 20px;
+}
+.ba-button{
+    margin-top: 10px;
+}
+.ba-btn {
+    padding: 10px 60px;
+}
+.ba-section-grid__title {
+		font-size: 20px;
+	}
+
+}
