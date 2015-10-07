@@ -229,6 +229,16 @@ display: block;
      -o-background-size: cover;
         background-size: cover;
 }
+.ba-image:hover {
+-moz-transform: scale(0.9);
+-webkit-transform: scale(0.9);
+-o-transform: scale(0.9);
+-ms-transform: scale(0.9);
+transform: scale(0.9);
+-webkit-transition: transform .3s ease-in;
+-moz-transition: transform .3s ease-in;
+transition: transform .3s ease-in;
+}
 .ba-section-grid .ba-image {
 position: relative;
 }
