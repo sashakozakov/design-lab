@@ -1,7 +1,12 @@
 body {
 font:300 16px/1.6 'LatoBA', Arial, sans-serif;
 }
-
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #6177FB;
+}
 /*Typography*/
 h1 {
 	font:700 54px/1.2 'LatoBA';
@@ -107,13 +112,22 @@ width: 99%;
 
 /*BOX*/
 
+.ba-section-about--us,
+.ba-section-whatwedo,
+.ba-section-contact-us {
+padding-top: 160px;
+padding-bottom: 160px;
+}
+.ba-section-services {
+padding-top: 130px;
+padding-bottom: 110px;
+}
+
 .ba-box {
 padding: 45px 130px;
 border: solid #3c3c3c;
 border-width:0 2px 2px;
 position: relative;
-margin-top: 160px;
-margin-bottom: 160px;
 }
 .ba-box:before,
 .ba-box:after {
@@ -155,17 +169,12 @@ text-transform: uppercase;
 
 .ba-section-services {
 	max-height:488px;
-	padding-top: 20px;
-padding-bottom: 20px;
 background: url('../img/image2.jpg') 50% no-repeat;
 -webkit-background-size: cover;
      -o-background-size: cover;
         background-size: cover;
 }
-.ba-box__services {
-margin-top: 130px;
-margin-bottom: 110px;
-}
+
 .ba-section-services .ba-box {
 border:solid #fff;
 border-width: 0 2px 2px;
@@ -191,9 +200,7 @@ margin-top: 80px;
 .ba-box-whatwedo__item+.ba-box-whatwedo__item {
 margin-top: 100px;
 }
-.ba-box__contact-us {
-margin-bottom: 60px;
-}
+
 /*Button styles*/
 .ba-button {
 margin-top: 40px;
@@ -280,11 +287,13 @@ padding: 45px 80px;
 	h2 {
 font-size: 26px;
 	}
-.ba-box {
-padding: 15px 50px;
-margin-top: 80px;
-margin-bottom: 65px;
+.ba-section-about--us,
+.ba-section-whatwedo,
+.ba-section-contact-us {
+padding-top: 80px;
+padding-bottom: 65px;
 }
+
 .ba-section-grid__image {
     height: 180px;
     }
@@ -300,9 +309,7 @@ left: 15px;
 .ba-btn {
 padding: 20px 100px;
 }
-.ba-footer-box {
-    margin-bottom: 20px;
-}
+
 
 }
 
@@ -331,10 +338,14 @@ margin-top: 0;
 	font-size: 34px;
     padding-top: 50px;
 }
+.ba-section-about--us,
+.ba-section-whatwedo,
+.ba-section-contact-us {
+padding-top: 40px;
+padding-bottom: 35px;
+}
 .ba-box {
-    padding: 5px 20px;
-    margin-top: 40px;
-    margin-bottom: 35px;
+padding: 1px 20px;
 }
 .ba-box__title {
 font-size: 18px;
@@ -374,7 +385,9 @@ h4 {
 .ba-header__text {
 	font-size: 14px;
 }
-
+.ba-box {
+padding: 15px 10px;
+}
 .ba-box:before,
 .ba-box:after {
 width: 15%;
